@@ -37,7 +37,7 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: npm run index
+        run: npm run build-prod
 
       - name: Upload builded project
         uses: actions/upload-pages-artifact@v1
